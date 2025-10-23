@@ -1,28 +1,45 @@
-EDITED
+# 🧾 Tax AI — Web-Based Tax Filing Platform
 
+**Tax AI** is a secure, web-based platform that simplifies tax preparation for financial firms managing high-volume clients.  
+It integrates with **TaxWise**, internal CRMs, and document management systems to create a unified digital tax ecosystem.
 
-This is a Next.js project bootstrapped with [`create-plasmic-app`](https://www.npmjs.com/package/create-plasmic-app).
+---
 
-## Getting Started
+## 🚀 Overview
 
-First, run the development server:
+Tax AI enables:
+- Secure client onboarding and authentication  
+- Document upload and e-signature workflow  
+- TaxWise API integration for data import/export  
+- Role-based access (Admin, Team, Client)  
+- Automated notifications and audit logging  
+
+Built for performance, scalability, and compliance with strict security standards.
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React, Next.js |
+| Backend | Node.js, Express |
+| Database | PostgreSQL |
+| Hosting | Vercel |
+| Integrations | TaxWise API, GHL CRM |
+| Security | AES-256 encryption, TLS 1.3, JWT authentication |
+
+---
+
+## 🧑‍💻 Getting Started
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/jesus-e8matrix/Tax-AI-.git
+cd Tax-AI-
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the local development server
 npm run dev
-```
-
-Open your browser to see the result.
-
-You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
-
-## Learn More
-
-With Plasmic, you can enable non-developers on your team to publish pages and content into your website or app.
-
-To learn more about Plasmic, take a look at the following resources:
-
-- [Plasmic Website](https://www.plasmic.app/)
-- [Plasmic Documentation](https://docs.plasmic.app/learn/)
-- [Plasmic Community Forum](https://forum.plasmic.app/)
-
-You can check out [the Plasmic GitHub repository](https://github.com/plasmicapp/plasmic) - your feedback and contributions are welcome!
