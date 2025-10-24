@@ -1,0 +1,424 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  align-content: flex-start;
+  justify-items: center;
+  overflow: auto;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.registrationPage {
+  background: rgba(34, 106, 242, 1);
+  width: 100%;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+}
+.svg__fqfMg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  width: 504px;
+  height: 448px;
+  display: block;
+  position: absolute;
+  top: -106px;
+  left: 1254px;
+}
+.svg__j3YRm {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  transform: scale(0.9999999656989046, 0.9999999656989045)
+    rotate(-26.478642405900235deg)
+    translate(0.394287109375px, -0.00091552734375px);
+  width: 689px;
+  height: 531px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 734px;
+  left: 792px;
+}
+.svg__cAkGg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  width: 422px;
+  height: 389px;
+  display: block;
+  position: absolute;
+  top: 245px;
+  left: 531px;
+}
+.svg__oDex {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  width: 217px;
+  height: 201px;
+  display: block;
+  position: absolute;
+  top: 175px;
+  left: 1527px;
+}
+.svg__ht3Qm {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  transform: scale(0.9999999991256576, 0.9999999991256576)
+    rotate(-49.893884326491836deg) translate(0px, 0.201416015625px);
+  width: 271px;
+  height: 304px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 87px;
+  left: 999px;
+}
+.svg__qHmUg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #226af2;
+  transform: scale(0.9999999991256576, 0.9999999991256576)
+    rotate(-49.893884326491836deg) translate(0px, 0.2015380859375px);
+  width: 271px;
+  height: 304px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 809px;
+  left: 747px;
+}
+.frame5 {
+  background: rgba(255, 255, 255, 1);
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  width: 665px;
+  height: 100vh;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.fullName {
+  position: absolute;
+  top: 345px;
+  left: 114px;
+  width: 85px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__f9X7B {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.eMail {
+  position: absolute;
+  top: 433px;
+  left: 114px;
+  width: 85px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___8Cqjg {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.phoneNumber {
+  position: absolute;
+  top: 521px;
+  left: 114px;
+  width: 85px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__wc9I {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.createPassword {
+  position: absolute;
+  top: 609px;
+  left: 114px;
+  width: 91px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__jEfpk {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.confirmPassword {
+  position: absolute;
+  top: 697px;
+  left: 114px;
+  width: 98px;
+  height: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__qNuyp {
+  display: block;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+}
+.textInput:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 113px;
+  top: 374px;
+  width: 300px;
+}
+.textInput2:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 112px;
+  top: 465px;
+  width: 300px;
+}
+.textInput3:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 113px;
+  top: 553px;
+  width: 300px;
+}
+.textInput4:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 114px;
+  top: 641px;
+  width: 300px;
+}
+.textInput5:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 112px;
+  top: 729px;
+  width: 300px;
+}
+.frame4 {
+  background: rgba(35, 106, 242, 1);
+  width: 100px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  left: 398px;
+  top: 909px;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+.text__ztou {
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
+.text__hkqpa {
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 112px;
+  top: 923px;
+}
+.checkbox:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 113px;
+  top: 792px;
+}
+.frame10 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 135px;
+  left: 114px;
+  flex-direction: column;
+  row-gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame9 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame8 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  row-gap: 48px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame6 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__rJnV4 {
+  display: block;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+  width: 414px;
+}
+.text__sUkH3 {
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.699999988079071);
+  position: relative;
+}
+.frame12 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 155px;
+  left: 874px;
+  flex-direction: column;
+  row-gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text__dvqR {
+  display: block;
+  font-size: 80px;
+  letter-spacing: 0em;
+  line-height: 70px;
+  color: rgba(238, 238, 238, 1);
+  position: relative;
+}
+.text__gMdBf {
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(238, 238, 238, 1);
+  position: relative;
+}
+.招聘矢量插画人物场景插画招聘1100924黑与白01Copy1 {
+  background: url("/plasmic/website_starter/images/招聘矢量插画人物场景插画招聘1100924黑与白01Copy1.png") center center / cover no-repeat;
+  width: 838px;
+  height: 628px;
+  display: block;
+  position: absolute;
+  top: 368px;
+  left: 793px;
+}
+.frame1 {
+  background: rgba(34, 106, 242, 1);
+  width: 393px;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 840px;
+  left: 107px;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 12px;
+}
+.text___1OHna {
+  display: block;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: relative;
+}
